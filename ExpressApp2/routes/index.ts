@@ -12,4 +12,8 @@ router.get('/a', (req: express.Request, res: express.Response) => {
     res.send("aaaaa");
 });
 
+router.get('/1', (req: express.Request, res: express.Response) => {
+    res.send("11111");
+});
+
 export default router;

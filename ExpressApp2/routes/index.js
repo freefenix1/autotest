@@ -10,6 +10,9 @@ router.get('/', function (req, res) {
 router.get('/a', function (req, res) {
     res.send("aaaaa");
 });
+router.get('/1', function (req, res) {
+    res.send("11111");
+});
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = router;
 //# sourceMappingURL=index.js.map
