@@ -9,11 +9,11 @@ router.get('/', (req: express.Request, res: express.Response) => {
 });
 
 router.get('/a', (req: express.Request, res: express.Response) => {
-    res.send("aaaaa");
+    res.send("aaaaa1");
 });
 
 router.get('/1', (req: express.Request, res: express.Response) => {
-    res.send("11111");
+    res.send("111112");
 });
 
 export default router;
