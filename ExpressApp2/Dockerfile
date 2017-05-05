@@ -7,7 +7,7 @@ WORKDIR /home/Service
 # Bundle app source
 COPY . /home/Service
 
-RUN npm install #-g cnpm --registry=https://registry.npm.taobao.org
+RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
  
 EXPOSE 3000
 CMD [ "npm", "start" ]
