@@ -8,10 +8,10 @@ router.get('/', function (req, res) {
     res.render('index', { title: 'Express' });
 });
 router.get('/a', function (req, res) {
-    res.send("a34");
+    res.send("a134");
 });
 router.get('/1', function (req, res) {
-    res.send("1233");
+    res.send("b1233");
 });
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = router;
