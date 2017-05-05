@@ -8,7 +8,7 @@ router.get('/', function (req, res) {
     res.render('index', { title: 'Express' });
 });
 router.get('/a', function (req, res) {
-    res.send("a134");
+    res.send("a1345");
 });
 router.get('/1', function (req, res) {
     res.send("b1233");
