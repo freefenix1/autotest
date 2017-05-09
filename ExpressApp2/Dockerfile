@@ -8,7 +8,7 @@ WORKDIR /home/Service
 COPY . /home/Service
 
 RUN npm --registry https://registry.npm.taobao.org info underscore
-RUN npm install -g --registry=http://registry.npm.taobao.org
+RUN npm install -g --registry=https://registry.npm.taobao.org
 #RUN npm install -g cnpm --registry=https://registry.npm.taobao.org 
  
 EXPOSE 3000
