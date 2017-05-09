@@ -11,7 +11,7 @@ router.get('/a', function (req, res) {
     res.send("a1344445");
 });
 router.get('/1', function (req, res) {
-    res.send("b1233");
+    res.send("avb1233");
 });
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = router;

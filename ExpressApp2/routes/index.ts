@@ -13,7 +13,7 @@ router.get('/a', (req: express.Request, res: express.Response) => {
 });
 
 router.get('/1', (req: express.Request, res: express.Response) => {
-    res.send("b1233");
+    res.send("avb1233");
 });
 
 export default router;
