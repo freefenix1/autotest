@@ -7,6 +7,7 @@ WORKDIR /home/Service
 # Bundle app source
 COPY . /home/Service
 
+RUN npm --registry https://registry.npm.taobao.org info underscore
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
  
 EXPOSE 3000
