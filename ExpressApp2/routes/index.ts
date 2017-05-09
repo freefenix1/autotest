@@ -9,7 +9,7 @@ router.get('/', (req: express.Request, res: express.Response) => {
 });
 
 router.get('/a', (req: express.Request, res: express.Response) => {
-    res.send("a12344445");
+    res.send("a1245");
 });
 
 router.get('/1', (req: express.Request, res: express.Response) => {
